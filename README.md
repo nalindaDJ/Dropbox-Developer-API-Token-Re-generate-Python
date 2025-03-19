@@ -16,18 +16,12 @@ This repository provides Python scripts for integrating with the Dropbox API. It
 ### 2. Configuration
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dropbox-token-regeneration.git
-   cd dropbox-token-regeneration
+   git clone https://github.com/nalindaDJ/Dropbox-Developer-API-Token-Re-generate-Python.git
+   cd Dropbox-Developer-API-Token-Re-generate-Python
    ```
 2. Replace `<YOUR_APP_KEY>` and `<YOUR_APP_SECRET>` in the scripts with your app credentials.
 
 ### 3. Usage
-
-#### Initial Setup
-Run the following script to generate the initial tokens:
-```bash
-python initial_setup.py
-```
 
 #### Regenerate Token
 Use the following script to refresh your access token:
@@ -46,9 +40,8 @@ Add the line:
 ```
 
 ### File Descriptions
-- `initial_setup.py`: Script to set up the app and generate initial tokens.
 - `regenerate_token.py`: Script to refresh the access token using the refresh token.
-- `tokens.json`: File where tokens are saved after generation.
+- `newAPI.php`: File where tokens are saved after generation.
 
 ---
 
